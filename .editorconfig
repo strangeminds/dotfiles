@@ -8,7 +8,7 @@ root = true
 ; 2 space indent
 ; Trim trailing whitespace
 [*]
-indent_style = tab
+indent_style = space
 indent_size = 2
 end_of_line = lf
 charset = utf-8
@@ -22,7 +22,11 @@ insert_final_newline = true
 indent_size = 4
 trim_trailing_whitespace = false
 
-; Shell scripts
+; Shell scripts & Python
 ; 4 space indent
-[*.sh]
+[*.{sh,py}]
 indent_size = 4
+
+; Sublime configs
+[*.{sublime-project,sublime-settings,sublime-theme,sublime-keymap,sublime-macro,sublime-color-scheme,sublime-menu}]
+indent_style = tab

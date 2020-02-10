@@ -211,6 +211,9 @@ gpub() {
   git fetch
 }
 
-tf() {
-	terraform "$@" | scenery
-}
+# Commented out for now
+# See https://github.com/dmlittle/scenery/issues/34
+#  or https://github.com/coinbase/terraform-landscape/issues/101
+# tf() {
+# 	terraform "$@" | scenery
+# }

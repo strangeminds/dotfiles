@@ -61,10 +61,9 @@ export AWS_REGION="us-east-1"
 export AWS_DEFAULT_REGION=$AWS_REGION
 
 # Set bat theme
+# https://github.com/sharkdp/bat
 export BAT_THEME="Solarized (light)"
 
 # Perforce
-export P4CLIENT=rbyrnes
-export PR_HOME="$HOME/dev"
-export P4DIFF=/usr/local/bin/ksdiff
-export P4MERGE=/usr/local/bin/ksdiff
+export P4USER=rbyrnes
+export P4PORT="perforce.athenahealth.com:1666"

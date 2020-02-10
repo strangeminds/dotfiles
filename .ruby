@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-rbenv install 2.6.1
-rbenv global 2.6.1
+rbenv install 2.7.0
+rbenv global 2.7.0
 
 # Update Rubygems to latest
 gem update --system

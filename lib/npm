@@ -10,7 +10,6 @@ run_npm() {
         # List of npm packages
         local packages="
                         alex
-                        alfred-change-case
                         alfred-polyglot
                         alfred-show-network-info
                         csslint
